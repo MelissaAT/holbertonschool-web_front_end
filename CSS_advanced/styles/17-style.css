@@ -402,9 +402,9 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 .container{
-    max-width: 960px;
-    margin-left:auto;
-    margin-right:auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-title {
     font-family: var(--font-family-title);
@@ -414,13 +414,13 @@ a:active {
     color: var(--section-title-color);
     
 }
-section{
+.section{
     padding: var(--section-padding);
 }
 
 .section-header {
     text-align: var(--section-header-aling);
-    padding: var(--section-body-padding);
+    padding: var(--section-header-padding);
 }
 .section-body {
     padding: var(--section-body-padding);
@@ -457,7 +457,7 @@ footer {
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
-    --section-footer-padding: 3rem 0 0;
+    --section-footer-padding: var(--section-footer-aling);
     --section-footer-aling: center;
     --footer-padding: 5rem 0 1rem;
 
