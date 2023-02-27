@@ -402,9 +402,9 @@ a:active {
     font-weight: var(--font-weight-bold);
 }
 .container{
-    max-width:960px;
-    margin-left:auto;
-    margin-right:auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .section-title {
     font-family: var(--font-family-title);
