@@ -428,7 +428,7 @@ a:active {
 .section-footer {
     padding: var(--section-body-padding);
 }
-footer {
+.footer {
     padding: var(--section-body-padding);
 }
 :root {
@@ -457,7 +457,7 @@ footer {
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
-    --section-footer-padding: var(--section-footer-aling);
+    --section-footer-padding: 3rem 0 0;
     --section-footer-aling: center;
     --footer-padding: 5rem 0 1rem;
 
