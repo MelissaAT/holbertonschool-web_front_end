@@ -485,7 +485,7 @@ ul.row {
     background: var(--color-black);
 }
 .card-services .card-title {
-    margin: none;
+    margin: 0;
 }
 .card-services .a {
     display: block;
