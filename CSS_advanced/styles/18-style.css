@@ -448,11 +448,14 @@ a:active {
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
-    margin: var(--nav-item-margin) 0 0 0;
+    margin: var(--nav-item-margin);
 }
 .nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
+}
+.nav .nav-link:hover {
+    color: var(--nav-item-link-hover);
 }
 :root {
     --color-primary: #d73953;
@@ -489,7 +492,7 @@ a:active {
     --nav-item-letter-spacing: 0.04;
     --nav-item-display: inline-block;
     --root-element: 62.5%;
-    --nav-item-margin: calc(3 * var(--root-element)) 0 0 0;
+    --nav-item-margin: calc(3 * var(--root-element));
     --nav-item-link-hover: var(--color-primary);
 }
 
