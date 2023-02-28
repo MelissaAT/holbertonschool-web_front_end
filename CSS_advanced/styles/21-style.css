@@ -992,13 +992,9 @@ ul.row {
 }
 .col-1-3 {
     width: 33.33%;
-    float: none;
-    padding: 0;
 }
 .col-1-2 {
     width: 50%;
-    float: none;
-    padding: 0;
 }
 :root {
     --color-primary: #d73953;
@@ -1058,6 +1054,4 @@ ul.row {
 [class^='col-'] {
     float: left;
     padding: 0.5rem;
-
-
 }
