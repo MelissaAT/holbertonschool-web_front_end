@@ -519,6 +519,11 @@ ul.row {
     width: 10rem;
     height: 10rem;
 }
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
+}
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
