@@ -546,7 +546,7 @@ ul.row {
     padding-top: 1rem;
     color: var(--color-primary);
 }
-.card-work .card-image {
+.card-work .card-outer {
     position: relative;
     overflow: hidden;
 }
